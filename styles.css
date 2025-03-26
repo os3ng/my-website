@@ -3,15 +3,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background: url('https://source.unsplash.com/1920x1080/?nature,abstract') no-repeat center center/cover;
+    color: #fff;
     text-align: center;
 }
 
 /* Header */
 header {
-    background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
-    color: white;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
     padding: 80px 20px;
 }
 
@@ -27,7 +26,7 @@ header p {
 
 .btn {
     display: inline-block;
-    background: #007bff;
+    background: #ff6b6b;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -36,17 +35,16 @@ header p {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #e63946;
 }
 
 /* Sections */
 section {
     padding: 50px 20px;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
 }
 
 /* Project Grid */
@@ -58,10 +56,11 @@ section {
 }
 
 .project {
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 250px;
 }
 
@@ -69,18 +68,4 @@ section {
 .social-links a {
     display: inline-block;
     margin: 10px;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.social-links a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    padding: 15px;
-    margin-top: 20px;
-}
+    color: #ff6
